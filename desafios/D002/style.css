@@ -5,10 +5,10 @@
   box-sizing: border-box;
 }
 
-/* ELEMENTOS DA INTERFACE */
+/*ELEMENTOS DA INTERFACE*/
 
 body {
-  background-color: #15142b;
+  background-color: #16152e;
   background-image: linear-gradient(180deg, #372991, #15142b);
   background-repeat: no-repeat;
   background-position: center center;

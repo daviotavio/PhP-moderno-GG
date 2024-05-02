@@ -16,7 +16,7 @@
     echo "<p>Gerando um número aleatório entre 1 e 100</p>";
     echo "O número gerado foi $n";
     ?>
-    <button onclick="javascript:document.location.reload()">&#X1F504; De novo</button>
+    <button onclick="javascript:document.location.reload()">&#X1F504; Gerar novo</button>
   </main>
 </body>
 
