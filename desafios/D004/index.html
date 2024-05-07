@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora simples</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Calculadora simples de adição, subtração, divisão e multiplicação</h1>
+      <form action="calculadora.php" method="get">
+        <label for="operacao">Escolha qual operação você deseja fazer</label>
+        <select name="op">
+          <option value="Adição">Adição</option>
+          <option value="Subtração">Subtração</option>
+          <option value="Divisão">Divisão</option>
+          <option value="Multiplicação">Multiplicação</option>
+        </select>
+        <label for="numero">Digite o primeiro número</label>
+        <input type="number" name="n1" id="n1" />
+        <label for="numero">Digite o segundo número</label>
+        <input type="number" name="n2" id="n2" />
+        <input type="submit" value="Calcular" />
+      </form>
+    </main>
+  </body>
+</html>
