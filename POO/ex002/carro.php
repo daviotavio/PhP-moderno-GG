@@ -64,3 +64,13 @@ class Carro
     echo "o carro está abrindo o vidro" . "<br>";
   }
 }
+
+class Moto extends Carro
+{
+
+
+  public function garupa()
+  {
+    echo "a moto está com garupa" . "<br>";
+  }
+}
