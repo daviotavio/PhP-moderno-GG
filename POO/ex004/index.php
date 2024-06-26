@@ -6,5 +6,4 @@ interface Ninja
 {
   public function atacar();
 
-  public function 
 }
