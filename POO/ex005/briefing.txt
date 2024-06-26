@@ -1,0 +1,39 @@
+Crie um arquivo com uma classe chamada Produto com os seguintes atributos:
+
+Privados:
+
+Código
+Nome
+Públicos:
+
+Preço
+Quantidade em Estoque
+Categoria
+Fornecedor
+Adicione no construtor desta classe para receber o Código e o Nome.
+
+Adicione os getters e setters de todos os atributos.
+
+Crie os seguintes métodos adicionais:
+
+calcularValorEstoque(): deve retornar o valor total do estoque do produto (preço * quantidade em estoque).
+aplicarDesconto($percentual): deve aplicar um desconto percentual ao preço do produto.
+reabastecerEstoque($quantidade): deve aumentar a quantidade em estoque com a quantidade fornecida.
+obterDadosProduto(): deve retornar uma string com:
+makefile
+Copiar código
+Nome:
+Código:
+Preço:
+Quantidade em Estoque:
+Categoria:
+Fornecedor:
+Crie um segundo arquivo (ex.: index.php) que:
+
+carregue a classe Produto (include ou require);
+instancie um objeto da classe Produto passando no construtor o Código e o Nome.
+execute os métodos setters para setar o Preço, Quantidade em Estoque, Categoria e Fornecedor.
+execute o método calcularValorEstoque() e exiba o resultado.
+execute o método aplicarDesconto() para aplicar um desconto ao preço do produto e exiba o novo preço.
+execute o método reabastecerEstoque() para aumentar a quantidade em estoque e exiba a nova quantidade.
+execute o método obterDadosProduto() e exiba o resultado.
